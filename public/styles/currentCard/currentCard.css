@@ -1,0 +1,21 @@
+.current__card_container {
+  background-color: #ffe9e9;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 45px 80px;
+  max-width: 1180px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+.current-card__text {
+  max-width: 580px;
+  font-family: Montserrat, sans-serif;
+  text-align: left;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 42px;
+  color: #a94040;
+  list-style: none;
+}

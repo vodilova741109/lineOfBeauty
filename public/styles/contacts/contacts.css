@@ -1,0 +1,112 @@
+.contacts-page__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 125px auto 145px auto;
+  max-width: 1300px;
+}
+.contacts-page__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 740px;
+  margin-right: 60px;
+}
+
+.contacts-page__text p {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  color: #502e20;
+}
+.contacts-page__text p span {
+  font-weight: bold;
+  color: #8c0101;
+}
+.contacts-page__link {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  color: #502e20;
+  text-decoration: none;
+}
+.contacts-page__link span {
+  font-weight: bold;
+  color: #8c0101;
+}
+.contacts-page__image {
+  margin-right: 60px;
+  max-width: 228px;
+}
+.form-page__wrapper {
+  max-width: 1077px;
+  margin: 160px auto;
+}
+.form-page__title {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #490000;
+}
+.form-page__container {
+  margin: 93px auto;
+  max-width: 800px;
+  border: 1px solid #8c0101;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 10px rgba(182, 140, 131, 0.25);
+  padding: 32px 54px;
+  display: flex;
+  flex-direction: column;
+}
+.form__input {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 20px;
+  background: #fffdfd;
+  border: 1px solid #8c0101;
+  color: #8c0101;
+  padding: 12px 30px;
+}
+.form__input::placeholder {
+  color: #8c0101;
+}
+.form__buttons {
+  display: flex;
+  flex-direction: row;
+}
+.form__checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form__checkbox input {
+  margin-right: 5px;
+}
+.form__checkbox p {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #490000;
+}
+.button__submit {
+  font-family: Montserrat, sans-serif;
+  margin-left: auto;
+  background: #8c0101;
+  border: 2px solid #8c0101;
+  color: white;
+  cursor: pointer;
+  padding: 12px 26px;
+  transition: 0.3s;
+}
+.button__submit:hover {
+  background: white;
+  color: #8c0101;
+}
+.maps__container {
+  max-width: 1700px;
+  margin: 50px auto;
+}

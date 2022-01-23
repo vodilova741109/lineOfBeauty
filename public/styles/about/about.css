@@ -1,0 +1,65 @@
+.about__head {
+  display: flex;
+  flex-direction: column;
+  max-width: 1360px;
+  margin: 98px auto;
+}
+
+.about__text {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  color: #371100;
+  margin-bottom: 20px;
+}
+.teachers-container {
+  margin: 75px auto;
+  max-width: 1300px;
+  background: #fffdfd;
+  box-shadow: 4px 4px 10px rgba(88, 0, 0, 0.22);
+  padding: 56px 46px 76px 46px;
+}
+.teachers__title {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #490000;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.teachers__subtitle {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #a94040;
+}
+.teacher__content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.teacher__image {
+  max-width: 260px;
+}
+.teacher__text {
+  max-width: 890px;
+  flex-shrink: 2;
+}
+.teacher__text p {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: justified;
+  color: #490000;
+  margin-bottom: 30px;
+}
